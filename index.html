@@ -1,35 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-House</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- google font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-<style>
-    .font-manrope{
-        font-family: 'Manrope', sans-serif;
-    }
-</style>
+        <!-- fave-icon -->
+        <script src="https://kit.fontawesome.com/2085e4b697.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 </head>
+
 <body class="font-marnope">
-    <header>
+    <header class="container mx-auto">
+
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+               
+                <div>
+                    <h1 class="text-7xl font-extrabold">
+                        It's good <br>
+                        tea time at The <br>
+                         Tea House</h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-secondary">Explore More</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="" />
+                    <div class=" -mt-20 flex items-center gap-10 drop-shadow-lg bg-white p-5 w-60">
+                            <i class="fa-solid fa-star text-5xl" style="color: #f9c124;"></i>
+                        <div>
+                            <h2 class="text-5xl">5.00</h2>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                </div>
+              
+                </div>
+            </div>
+        </div>
 
     </header>
 
-    <main>
+    <main class="container mx-auto">
+
+        <!-- features section -->
+        <section class="text-center my-24">
+            <div>
+                <h2 class="text-5xl font-extrabold p-4">Our Featured Products</h2>
+            <p class="max-w-3xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempore ea magnam! Iusto quas voluptatibus laborum ipsam dicta dolore vitae.Iusto quas voluptatibus laborum ipsam dicta dolore vitae</p>
+
+            <!-- card section -->
+            <section class="flex flex-col lg:flex-row p-6 gap-12">
+         
+                <div class="card  w-96 p-8 bg-gray-100 shadow-xl">
+                    <figure><img src="images/tea-1.png" alt="" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="card-title text-3xl font-bold">Milk Tea!</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card  w-96 p-8 bg-gray-100 shadow-xl">
+                    <figure><img src="images/tea-2.png" alt="" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="card-title text-3xl font-bold">Black Tea!</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card  w-96 p-8 bg-gray-100 shadow-xl">
+                    <figure><img src="images/tea-3.png" alt="" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="card-title text-3xl font-bold">Lemon Tea!</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                <div class="card  w-96 p-8 bg-gray-100 shadow-xl">
+                    <figure><img src="images/tea-4.png" alt="" /></figure>
+                    <div class="card-body justify-center">
+                      <h2 class="card-title text-3xl font-bold">Green Tea!</h2>
+                      <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+          
+        </section>
+
+
+      <!-- fresh tea -->
+        <section class="my-24 flex gap-12 flex-col lg:flex-row">
+
+         <div>
+            <div class="grid gap-8 grid-cols-1 lg:grid-cols-2">
+                <div class="rounded-xl h-36 bg-gradient-to-r from-red-100 via-red-100"></div>
+                <div class=" row-span-2 bg-red-300 p-4 rounded-xl drop-shadow-xl ">
+                    <img src="images/fresh-1.png" alt="">
+                </div>
+                <div class="row-span-2 bg-red-300 p-4 rounded-xl drop-shadow-xl ">
+                    <img src="images/fresh-2.png" alt="">
+                </div>
+                <div class="rounded-xl h-36 bg-gradient-to-r from-red-100 via-red-100"></div>
+
+            </div>
+         </div>
+
+            <div class=" justify-start flex-1">
+                <h3 class="text-5xl font-extrabold p-4">Great Tea, Freshly <br> Presented</h3>
+                <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, alias! At adipisci atque aliquid quis eos eveniet sequi cupiditate temporibus, fugiat repellendus accusamus optio deleniti pariatur libero saepe, doloribus dicta.</p>
+
+                <h4 class="text-3xl p-4">Unique Taste</h4>
+                <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+
+                <h4 class="text-3xl p-4">Premium Quality</h4>
+                <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+
+            </div>
+
+        </section>
+
+
 
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
